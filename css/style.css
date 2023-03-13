@@ -1,0 +1,279 @@
+*{
+
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+  
+}   
+body{
+    
+     background-color: rgb(35, 34, 34);
+    
+}     
+*, input, button {
+    
+     font-family:Arial, Helvetica, sans-serif;
+     font-size: 10px;
+    
+}        
+.menu{
+   
+     height: 48px;
+     display: flex;
+     width: 100%;
+     background-color: #983224;
+
+}   
+.menu__section {
+    
+     display: flex;
+     align-items: center;
+    
+}        
+.titulo{
+    
+     padding: 40px;
+     position: absolute;
+     text-transform: uppercase;
+     font-size: 15px;
+     color: rgb(253, 253, 253);
+}   
+.row {
+     
+     padding: 10px 10px 10px;    
+     gap: 10px 10px;    
+     justify-content:center;   
+     display: flex;    
+     position: relative;    
+     align-items: center;
+     flex-wrap: wrap;
+     
+}   
+.pokemons{
+     cursor: pointer;
+     background:linear-gradient(to bottom, #ffffff, #dbdbdb, #777676);
+     width: 150px;
+     height: 150px;
+     border-radius: 10px;
+     text-decoration:none;
+    
+}   
+img{
+    
+     display:block;
+     max-width: 110px;
+     height: auto;
+     margin:auto;
+     padding-top: 10px;
+}
+p {
+     color: #FFF;
+     font-size:15px ;
+     text-align: center;
+     font-weight: 400;
+     padding-top: 1px;
+      
+
+}
+.menu2{
+    
+     background:linear-gradient(to bottom, #d0cdcd, #dbdbdb, #676565);
+     width: 100%;
+     height: 250px;
+     border-radius: 50px;
+     border-top-right-radius: 0;
+     border-top-left-radius: 0;
+     padding: 5px 5px;
+     
+      
+} 
+.row a:hover { 
+
+     background-color: #242424; 
+     transition: 0.5s;
+     opacity: 0.7;
+
+}
+.items {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     
+     
+
+}
+.menu__icon {
+     display: inline;
+     cursor: pointer;
+     padding: 12px;
+}
+.titulo2 {
+     display: inline;
+     color: #FFF;
+     font-size: 15px;
+     cursor: pointer;
+     padding: 20px 0;
+     text-transform: uppercase;
+     
+}
+.id{
+     padding: 0 12px;
+}
+img.info{
+     display:block;
+     max-width: 150px;
+     height: auto;
+     margin:auto;
+     
+}
+.nomePoke{
+     text-align: center;
+     font-size: 25px;
+     padding: 10px;
+}
+
+.grid-container {
+     display: grid;
+     gap: 0 20px;
+     grid-template-columns: 120px 120px;
+     padding: 10px;
+    justify-content:center
+}
+.grid-item {
+     color: #FFF;
+     padding: 10px 0;
+     font-size: 15px;
+     text-align: center;
+     text-transform: uppercase;
+}
+p.grid-item{
+     padding: 0;
+     color: #aaa9a9;
+     font-size: 10px;
+}
+
+.pokeType{
+     background-color: rgb(149, 148, 148);
+     width: 90px;
+     height: 20px;
+     border-radius: 20px;
+     position: relative;
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+}
+.pokeType .type1{
+     
+     color: rgb(255, 253, 253);
+     text-transform: lowercase;
+     text-align: center;
+     font-size: 13px;
+           
+}
+.progress-bar1 {
+     width: 70%;
+     height: 15px;
+     background-color: #ffffff;
+     border-radius: 50px;
+     display: flex;
+     
+}
+.progress1 {
+     width: 80%; 
+     height: 100%;
+     background-color: #ff0000;
+     border-radius: 50px;
+     text-align: center;
+     color: #FFF;
+     
+}
+.progress-bar2 {
+     width: 70%;
+     height: 15px;
+     background-color: #ffffff;
+     border-radius: 50px;
+     display: flex;
+}
+.progress2 {
+     width: 50%; 
+     height: 100%;
+     background-color: #ffda33;
+     border-radius: 50px;
+     text-align: center;
+     color: #FFF;
+     
+}
+.progress-bar3 {
+     width: 70%;
+     height: 15px;
+     background-color: #ffffff;
+     border-radius: 50px;
+     display: flex;
+}
+.progress3 {
+     width: 80%; 
+     height: 100%;
+     background-color: #2f63ff;
+     border-radius: 50px;
+     text-align: center;
+     color: #FFF;
+     
+}
+.progress-bar4 {
+     width: 70%;
+     height: 15px;
+     background-color: #ffffff;
+     border-radius: 50px;
+     display: flex;
+}
+.progress4 {
+     width: 20%; 
+     height: 100%;
+     background-color: #b7b7b7;
+     border-radius: 50px;
+     text-align: center;
+     color: #FFF;
+     
+}
+.progress-bar5 {
+     width: 70%;
+     height: 15px;
+     background-color: #ffffff;
+     border-radius: 50px;
+     display: flex;
+     
+}
+.progress5 {
+     width: 90%; 
+     height: 100%;
+     background-color: #04941a;
+     border-radius: 50px;
+     text-align: center;
+     color: #FFF;
+     
+}
+.baseStats p {
+     display: flex;
+     color: #ffffff;
+     text-align: left;
+     padding: 2px 20px;
+     margin-right: 10px;
+}
+.baseStats{
+     
+     display: flex;
+     align-items: center;
+     
+}
+h3{
+
+     text-align: center;
+     font-size: 15px;
+     color: #FFF;
+     font-weight: 500;
+}
+
+         
+        
+       
+         

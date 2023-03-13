@@ -1,0 +1,106 @@
+<header class="menu2">
+    
+    <div class="items">
+
+    <a href="#!/pokemons/"> 
+
+        <img class="menu__icon" src="img/setinha.svg" alt="back" /> 
+
+            <p class="titulo2">Pokédex</p>
+    </a> 
+            <p class="id">#{{pokemon.id}}</p>
+               
+</div>
+
+        <img class="info" ng-src="{{pokemon.image}}"/>
+
+</header>
+
+<div class="container">    
+
+        <p class="nomePoke">{{pokemon.name}}</p>
+        
+        <div class="pokeType">
+
+            <p class="type1">{{pokemon.type[0]}}</p>
+
+        </div>
+            
+           
+            
+        <div class="grid-container">
+
+            <div class="grid-item">{{pokemon.weight}}</div>
+
+                <div class="grid-item">{{pokemon.height}}</div>
+
+                    <p class="grid-item">Weight</p>
+
+                        <p class="grid-item">Height</p> 
+
+        </div>
+        
+    
+    <h3>Base Stats</h3>
+
+        <div class="baseStats">
+
+            <p>HP</p>
+
+                <div class="progress-bar1">
+
+                    <div class="progress1">{{pokemon.stats.hp}}/300</div>
+                
+                </div>
+
+        </div>
+
+        <div class="baseStats">
+
+            <p>ATK</p>
+
+                <div class="progress-bar2">
+
+                    <div class="progress2">{{pokemon.stats.attack}}/300</div>
+
+                </div>
+
+        </div>
+
+            <div class="baseStats">
+
+                <p>DEF</p>
+
+                    <div class="progress-bar3">
+
+                        <div class="progress3">{{pokemon.stats.defense}}/300</div>
+
+                    </div>
+
+           </div>
+
+           <div class="baseStats">
+
+                <p>SPD</p>
+
+                    <div class="progress-bar4">
+
+                        <div class="progress4">{{pokemon.stats.speed}}/300</div>
+
+                    </div>
+
+            </div>
+
+            <div class="baseStats">
+
+                <p>EXP</p>
+
+                    <div class="progress-bar5">
+
+                        <div class="progress5">500/1000</div>
+
+                    </div>
+
+           </div>
+            
+</div>

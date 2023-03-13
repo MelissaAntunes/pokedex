@@ -1,0 +1,20 @@
+<header class="menu">
+   
+    <div class="menu__section left">
+
+        <div class="titulo">Pokédex</div>
+
+    </div>
+
+</header>
+
+<main class="row">
+
+    <a href="#!/pokemons/{{pokemon.id}}" class="pokemons" ng-repeat="pokemon in pokemons">
+
+        <img ng-src="{{pokemon.image}}">
+
+            <p>{{pokemon.name}}</p>
+    </a>   
+
+</main>

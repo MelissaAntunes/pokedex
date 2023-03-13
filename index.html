@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Pokédex</title>
+
+    <link rel="icon" type="image/x-icon" href="img/po.png">
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    
+   <!-- AngularJS library -->
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular/angular-route.js"></script>
+     
+</head>
+
+    <body ng-app="pokedex">
+
+            <div ng-view></div>
+                
+
+        <!-- Modules -->
+            <script src="js/app.js"></script>
+
+        <!-- Controllers -->
+            <script src="js/controller/controllers.js"></script>
+            <script src="js/controller/controllers2.js"></script>
+
+        <!-- Services -->
+            <script src="js/services/pokemonsAPI.js"></script>
+
+        <!-- CONFIG -->
+            <script src="js/config/config.js"></script>  
+
+        <!-- VALUE -->
+            <script src="js/value/value.js"></script>
+
+   
+    </body>
+    
+</html>
